@@ -42,7 +42,7 @@ end
 
 def run
   puts "Pleae enter a command:"
-  input = gets.downcase.strip
+  input = gets.strip
   if input == 'list'
     list(songs)
   end
