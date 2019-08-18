@@ -52,14 +52,15 @@ def run(songs)
         input = gets.chomp
       when "list"
         list(songs)
-        puts "Please enter a command:"
+        
         input = gets.chomp
       when "play"
         play(songs)
-        puts "Please enter a command:"
+  
         input = gets.chomp
       when "exit"
         exit_jukebox
+        break
       else
         puts "Invalid input, please try again:"
         input = gets.chomp
