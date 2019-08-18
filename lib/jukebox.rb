@@ -60,7 +60,6 @@ def run(songs)
         input = gets.chomp
       when "exit"
         exit_jukebox
-        puts "please enter a command:"
       else
         puts "Invalid input, please try again:"
         input = gets.chomp
