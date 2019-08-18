@@ -43,14 +43,14 @@ end
 def run(songs)
   help
  puts "Please enter a command:"
-  response = gets.strip
-  if response == "help"
+  input = gets.strip
+  if input == "help"
     help
-  elsif response == "list"
+  elsif input == "list"
     list(songs)
-  elsif response == "play"
+  elsif input == "play"
     play(songs)
-  elsif response == "exit"
+  elsif input == "exit"
     exit_jukebox
   else
     puts "Invalid input, please try again"
