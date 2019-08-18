@@ -51,11 +51,11 @@ def run
         puts "Please enter a command:"
         input = gets.chomp
       when "list"
-        list(my_songs)
+        list(songs)
         puts "Please enter a command:"
         input = gets.chomp
       when "play"
-        play(my_songs)
+        play(songs)
         puts "Please enter a command:"
         input = gets.chomp
       when "exit"
