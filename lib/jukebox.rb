@@ -42,7 +42,7 @@ end
 
 def run
   puts "Pleae enter a command:"
-  input = gets.strip
+  input = gets.downcase.strip
   case input
   when "help"
     help
@@ -50,7 +50,10 @@ def run
     list(songs)
   when "play"
     play(songs)
-  when ""
+  when "exit"
+    exit_jukebox
+    break
+    
       
 end
 
