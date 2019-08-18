@@ -55,8 +55,8 @@ def run
         break
       when 'help'
         help
-      end
     end
+  end
 end
 
 
