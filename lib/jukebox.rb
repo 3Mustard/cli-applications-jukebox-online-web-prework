@@ -31,7 +31,7 @@ def play(songs)
   songs.each_with_index do |value,index|
     song_number = (index + 1)
     song_name = value
-    if input == song_number.to_s || input.include?(song_name)
+    if input.to_s == song_number.to_s || input.include?(song_name)
       now_playing = "Playing <#{song_name}>"
       break
     end
