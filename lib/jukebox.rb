@@ -41,6 +41,7 @@ def exit_jukebox
 end
 
 def run
+  
   input = ""
    while input != "exit"
     case input
